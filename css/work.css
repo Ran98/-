@@ -1,0 +1,291 @@
+/*
+* @Author: 冉郑伟
+* @Date:   2018-10-24 11:03:50
+* @Last Modified by:   冉郑伟
+* @Last Modified time: 2018-10-31 20:53:04
+*/
+.work_one{
+	bottom: 0;
+    background-image: url('../images/careers-bg-line.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+	background-color: rgba(0, 0, 0, 0.87);
+    min-height: 640px;
+    margin-bottom: 0;
+    transition: all 1s;
+}
+.work_one .txt h3{
+	font-weight: 700;
+	color: #fff;
+	font-size: 3rem;
+	margin-bottom: 18px;
+}
+.work_one .txt h5{
+	color: #00A862;
+	font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 18px; 
+}
+.work_one .txt p{
+	word-wrap: break-word;
+    word-break: normal;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 48px;
+}
+#work1 {
+	display: flex;
+}
+#work1 li{
+	flex: 6;
+}
+#work1 li div{
+	 box-sizing: border-box;
+    display: inline-block;
+	height: 100%;
+    min-height: 264px;
+	background: #FFF;
+/* 	background-clip:content-box ; */
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    display: block;
+    overflow: hidden;
+}
+#work1 .mend{
+	    margin-right: 16px;
+}
+
+#work1 li img{
+	display: block;
+	height: 155px;
+	width: 100%;
+	overflow: hidden;
+}
+#work1 h3{
+	    font-size: 2rem;
+	    font-weight: 600;
+	    margin-bottom: 15px;
+}
+#work1 a{
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 15px;
+	display: block;
+	color: #fff;
+	width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #00A862;
+    border-color: #00A862;
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    font-weight: 500;
+    outline: none;
+    overflow: hidden;
+    padding: 6px 18px;
+    transition-duration: 0.1s;
+    transition-property: background, border-color, color;
+    margin-bottom: 12px;
+}
+#work1 a:hover{
+	background-color: #1AB172;
+}
+.one_img{
+	margin: 0 auto;
+	height: 120px;
+    width: 360px;
+	background: url('../images/careers-cup.png')  no-repeat;
+}
+.work_two{
+	background: #F7F7F7;
+}
+#UL1 {
+	display: flex;
+}
+#UL1>li{
+	flex: 6;
+	 padding-left: 30px;
+    padding-right: 30px;
+}
+#UL1 li p{
+	text-align: center;
+	margin-bottom: 24px;
+}
+#UL1>li:nth-child(1){
+	border-right: 1px solid #EDEBE9;
+}
+.UL2 li{
+	    font-size: 1.6rem;
+    font-weight: 400;
+	margin-top: 6px;
+	line-height: 160%;
+	list-style-type: circle
+}
+
+.gold{
+	text-align: center;
+	    color: #C2A661;
+	    margin-bottom: 18px;
+	        font-size: 1.8rem;
+    font-weight: 400;
+}
+.black{
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+.bottom_two{
+/* 	background-image: url('../images/careers-bg-line-2.svg') */
+background-color: #fff;
+position: relative;
+}
+#line-bg-2{
+	position: absolute;
+	width: 100%;
+	max-height: 500px;
+	top: -5px;
+}
+.bottom_two img{
+	max-height: 136px;
+	width: 100%;
+}
+.work_three .conter{
+	padding-left: 24px;
+    padding-right: 24px;
+	display: flex;
+}
+.work_three ul li{
+	list-style: disc;
+}
+.work_three h3{
+	text-align: left;
+}
+.work_three .txt{
+	line-height: 160%;
+	padding: 25px;
+	flex: 3;
+}
+.work_three .pic{
+	flex: 1;
+	background: url('../images/careers-icon-stars.svg') no-repeat;
+	background-position: 0 175px;
+}
+.work_four{
+	background: #F7F7F7;
+}
+.work_four .conter{
+	padding-left: 24px;
+    padding-right: 24px;
+	display: flex;
+}
+.work_four ul li{
+	list-style:  circle ;
+	line-height: 36px;
+	font-size: 17px;
+}
+.work_four h3{
+	text-align: left;
+}
+.work_four .txt{
+	line-height: 160%;
+	padding: 25px;
+	flex: 3;
+}
+.work_four .pic{
+	flex: 1;
+	background: url('../images/careers-icon-apron.png') no-repeat;
+	background-position: 0 215px;
+}
+.all{
+	display: flex;
+}
+.all .in{
+	flex: 6;
+	padding-left: 24px;
+    padding-right: 24px;
+    list-style: none;
+
+}
+.work_five{
+	    background-color: #F3F1E7;
+}
+.work_five .conter{
+	padding-left: 24px;
+    padding-right: 24px;
+	display: flex;
+}
+.work_five ul li{
+	list-style: disc;
+	margin-bottom: 6px;
+	font-size: 1.6rem;
+	line-height: 160%;
+    font-weight: 400;
+}
+.work_five h3{
+	font-size: 22px;
+	text-align: left;
+	margin-bottom: 18px
+}
+.work_five .txt{
+	line-height: 160%;
+	padding: 25px;
+	flex: 3;
+}
+.work_five .pic{
+	flex: 1;
+	background: url('../images/careers-icon-scu.png') no-repeat;
+	background-position: 0 265px;
+}
+#un li{
+	margin-left: 20px;
+	list-style:  circle ;
+}
+.work_six{
+	background: url('../images/careers-bg-black.png');
+	 background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.work_six .conter{
+	display: flex;
+}
+.flex1{
+	flex: 1;
+}
+.flex{
+	flex: 1;
+}
+.work_six .logo{
+	background: url('../images/starbucks_recruitment_wechat_qr_code.png');
+	border: 12px solid #000;
+    background-size: cover;
+    height: 132px;
+    width: 132px;
+    margin: 0 auto;
+}
+.work_six p{
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 24px;
+}
+.sao{
+	margin: 0 auto;
+	text-align: center;
+	width: 156px;
+}
+
+ @media(max-width: 640px){
+ 	#work1 li{
+ 		flex: 12;
+ 	}
+ 	.flex{
+ 		flex: 12;
+ 	}
+ }
+

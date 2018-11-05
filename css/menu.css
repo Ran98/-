@@ -1,0 +1,96 @@
+/*
+* @Author: admin
+* @Date:   2018-10-15 15:28:44
+* @Last Modified by:   冉郑伟
+* @Last Modified time: 2018-10-16 20:10:06
+*/
+a{
+	text-decoration: none;
+}
+.foot ul li{
+	overflow: hidden;
+}
+.foot ul li a{
+	text-decoration: none;
+	display: inline-block;
+    color: rgba(0, 0, 0, 0.56);
+    padding: 6px 0;
+    margin-right: 18px;
+    font-size: 16px;
+}
+.foot  a:hover{
+	font-weight: 500;
+	color: #000;
+}
+.foot #current{
+
+	font-size: 18px;
+	color: #000;
+	font-weight: 600;
+	border-bottom: 3px solid #00A862;
+}
+.wrapper{
+	padding: 30px 0;
+	box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+    width: 100%;
+}
+.wrapper h2{
+	margin: 0 0 18px 0;
+}
+.wrapper p{
+	font-size: 15.5px;
+	line-height: 28px;
+}
+.pro{
+	background: #F7F7F7;
+}
+.pro ul li{
+	box-sizing: border-box;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.pro ul li img{
+	padding: 12px;
+	margin-bottom: 10px;
+}
+.pro p{
+	white-space: nowrap;
+	overflow: hidden;
+text-overflow: ellipsis;
+}
+@media(max-width: 1024px){
+	nav{
+
+		margin-bottom: 2px;
+	}
+	.foot ul li {
+		float: left;
+	}
+	.con{
+		padding-top: 16px;
+	}
+	.con h2{
+		margin-top: 0;
+		margin-bottom: 16px
+	}
+}
+@media(max-width: 640px){
+	.foot{display: block;}
+	.menu{
+		padding: 0;
+	}
+	.pro ul {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.pro ul li{
+		padding: 0;
+	}
+	.fix{
+		padding: 0;
+	}
+
+}
